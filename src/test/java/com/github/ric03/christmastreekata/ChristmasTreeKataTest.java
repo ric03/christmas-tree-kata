@@ -1,6 +1,5 @@
-package christmastreekata;
+package com.github.ric03.christmastreekata;
 
-import com.github.ric03.christmastreekata.ChristmasTreeKata;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
