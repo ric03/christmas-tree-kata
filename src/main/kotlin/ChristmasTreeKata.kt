@@ -1,5 +1,5 @@
 private const val AIR = " "
-private const val LEAVE = "X"
+private const val LEAF = "X"
 private const val STUMP = "|"
 
 fun drawTree(size: Int): List<String> {
@@ -7,7 +7,7 @@ fun drawTree(size: Int): List<String> {
 
     val leaves = List(size) { index ->
         val indentation = AIR.repeat(size - index - 1)
-        val leaves = LEAVE.repeat(index * 2 + 1)
+        val leaves = LEAF.repeat(index * 2 + 1)
         indentation.plus(leaves)
     }
 
